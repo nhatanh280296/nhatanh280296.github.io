@@ -1,0 +1,178 @@
+.main_nav
+{
+    position: fixed;
+    padding-top: 1.5rem;
+    background: #000000;
+    padding-left: 30rem;
+    text-align: left;
+    z-index: 1000;
+    width: 100%;
+}
+.nav_items
+{
+	height: 100%;
+}
+.nav_items li
+{
+	display: inline-block;
+	margin-left: 35px;
+	height: 100%;
+} 
+.nav_items li a
+{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 3.5px;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 14px;
+	padding-right: 10px;
+}
+.nav_items li.active a
+{
+	color: #FFFFFF;
+}
+.nav_items li:hover
+{
+	background: #000000;
+}
+.nav_items li:hover a
+{
+	color: #FFFFFF;
+}
+
+.lines {
+    background: white;
+    margin-bottom: 2rem;
+}
+.lines .breadcrumb {
+    margin-bottom: 0;
+    background: none;
+    padding: .75rem 0;
+}
+.bannershop {
+    background-image: url('../img/ub.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 16rem;
+    padding-bottom: 2rem;
+}
+
+.bannershop h1 {
+    padding-left:40rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.bannershop h2 {
+    padding-left:40rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom:3rem;
+}
+
+.bannershop .btn-light {
+    margin-left:40rem;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    background: #FFF;
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.shop{
+    padding-top: 2rem;
+}
+.shop h2{
+    color:#fff;
+
+}
+.shop figure {
+  
+    padding: 1rem
+}
+.shop figure:hover {
+    box-shadow: 0 0 15px rgba(179, 179, 179, 0.75);
+
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #212529;
+    border-color: #f8f9fa;
+}
+body{
+    background: black;
+}
+h1{
+    color: white;
+}
+.thanks {
+    background-image: url('../img/banner_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 16rem;
+    padding-bottom: 2rem;
+}
+.thanks h1{
+    align-content: center;
+    text-align: center;
+    padding-top: 35rem;
+}
+footer
+{
+    background-color: #363636;
+}
+
+.footer
+{
+    font-size: 16px;
+    line-height: 36px;
+    clear: both;
+    color: #fff;
+    text-align: center;    
+    padding: 50px 0;
+}
+
+.footer-left, .footer-right
+{
+    width: 510px;
+}
+
+.footer-right
+{
+    margin-left: 370px;
+}
+
+.footer a
+{
+    color: #fff;
+}
+
+.social-footer a 
+{
+    margin: 0 5px;
+    font-size: 20px;
+}
